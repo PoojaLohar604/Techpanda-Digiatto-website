@@ -1,0 +1,170 @@
+.innovation-main-content{
+    padding: 3%;
+    border-top: 1px solid #013DC4;
+    border-bottom: 1px solid #013DC4;
+    box-shadow: 0px 0px 23.9px 0px #013DC469;
+    background-image: url('../../../Assets/rightgradient.png');
+    background-position: right;
+    background-size: cover,contain;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.innovation-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;  
+}
+.innovation-text-content h5{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    color: #FCB61A; 
+}
+.innovation-text-content h1{
+    font-size: 56px;
+    font-weight: 500;   
+    color: #F6F6F6; 
+    margin-top: 20px;
+}
+.innovation-text-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #D8D8D8;
+    width: 60%;
+    margin-top: 10px;
+}
+.innovation-image-card-details-content{
+    margin-top: 60px;   
+}
+.vision-image-one{
+    width: 40%;
+    height: auto;
+    margin-top: 35px;
+}
+.vision-image-two{
+    width: 40%;
+    height: auto;
+}
+.vision-image-one img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.vision-image-two img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+.vision-image{
+    display: flex;
+    gap: 15px;   
+}
+.innovation-cards-content{
+    margin-top: 20px;
+    background-image: url('../../../Assets/Star.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.center-div{
+    display: flex;
+    justify-content: space-around;
+}
+.emty-div-center{
+    width: 400px;
+}
+.center-div-para {
+width: 100% !important;
+}
+@media (max-width:992px) {
+    .innovation-text-content h5{
+        font-size: 18px;
+    }
+    .innovation-text-content h1{
+        font-size: 45px;
+    }
+    .innovation-text-content p{
+        font-size: 15px;
+        width: 75%;
+    }
+    .vision-image-one{
+        margin-top: 30px;
+    }
+    .vision-image{
+        gap: 15px;   
+    }
+    .innovation-cards-content{
+        margin-top: 0px;
+    }
+    .emty-div-center{
+        width: 300px;
+    } 
+}
+@media (max-width:768px) {
+    .innovation-text-content h5{
+        font-size: 15px;
+    }
+    .innovation-text-content h1{
+        font-size: 35px;
+    }
+    .innovation-text-content p{
+        font-size: 13px;
+        width: 80%;
+    }
+    .vision-image-one{
+        margin-top: 20px;
+    }
+    .vision-image{
+        gap: 10px;   
+    }
+    .emty-div-center{
+        width: 0px;
+    } 
+}
+@media (max-width:576px) {
+    .innovation-text-content h1{
+        font-size: 25px;
+    }
+    .innovation-text-content p{
+        width: 100%;
+    }
+    .vision-image-one{
+        width: 25%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .vision-image-two{
+        width: 25%;
+        height: auto;
+    }
+    .vision-image{
+        gap: 10px;  
+        align-items: center;
+        justify-content: center; 
+    }
+    .emty-div-center{
+        width: 0px;
+    } 
+    .innovation-image-card-details-content{
+        margin-top: 10px;   
+    }
+    .innovation-cards-content{
+        margin-top: 30px;
+    }
+    .emty-div-center{
+        display: none;        
+    }
+    .center-innovation-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .center-div-para {
+        width: 80% !important;
+        text-align: center;
+        }
+
+}

@@ -1,0 +1,174 @@
+.tech-cards{
+    border: 1px solid #013DC4;
+    background-color: #001035;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 23.9px 0px #013DC469;
+
+}
+.card-content-div h5{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.emty-div{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #013DC4;
+    background-color: #001035;
+    border-radius: 10px;
+}
+.course-item-lists{
+    margin-top: 30px;
+}
+.list-items ul{
+    list-style: none;
+    padding: 0px;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 30px;
+}
+.card-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-button button{
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #FFC84D 0%, #FCB61A 100%);
+    color: #F6F6F6;
+    font-size: 18px;
+    padding: 5px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.icons-img-ul{
+    gap: 10px;   
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+    align-items:start;   
+    justify-content: start;
+    line-height: 10px;
+    margin-top: 10px;
+    
+}
+.icons-img-ul img{
+    width: 18px;
+    height: auto;
+    margin-left: 5px;
+}
+/* Responsive */
+@media (max-width:992px) {
+    .card-content-div h5{
+        font-size: 13px;
+    }
+    .emty-div{
+        width: 100%;
+        height: 30px;
+    }
+    .list-items ul{
+        font-size: 0.58rem;
+    }
+    .card-button button{
+        font-size: 12px;
+        padding: 5px 15px;
+    }
+    .icons-img-ul{
+        margin-left: -50px; 
+        gap: 18px;
+    }
+    .icons-img-ul img{
+        width: 12px;
+        height: auto;
+        margin-left: 5px;
+       }
+}
+@media (max-width:768px) {
+    .tech-cards{
+        margin-top: 30px;
+    }
+    .card-content-div h5{
+        font-size: 0.90rem;
+        margin-top: 5px;
+    }
+    .emty-div{
+        width: 100%;
+        height: 40px;
+    }
+    .list-items ul{
+        font-size: 0.75rem;
+    }
+    .card-button button{
+        font-size: 0.80rem;
+        padding: 5px 18px;
+    }
+    .card-button button svg{
+        width: 10px;
+        height: 10px;
+    }
+    .icons-img-ul{
+        margin-left: -50px; 
+        gap: 15px;
+    }
+    .icons-img-ul img{
+        width: 15px;
+        height: auto;
+        margin-left: 10px;
+       }
+}
+@media (max-width:576px) {
+    .tech-card-manage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tech-cards{
+        margin-top: 20px;
+        width: 60%;   
+    }
+    .card-content-div h5{
+        font-size: 0.85rem;
+        margin-top: 5px;
+    }
+    .emty-div{
+        width: 100%;
+        height: 40px;
+    }
+    .list-items ul{
+        font-size: 0.75rem;
+    }
+    .card-button button{
+        font-size: 0.65rem;
+        padding: 5px 18px;
+        margin-bottom: 0px;
+    }
+    .card-button button svg{
+        width: 8px;
+        height: 8px;
+    }
+    .icons-img-ul{
+        margin-left: -50px; 
+        gap: 15px;
+    }
+    .icons-img-ul img{
+        width: 15px;
+        height: auto;
+        margin-left: 8px;
+       }
+}
+@media (max-width:376px) {
+
+    .icons-img-ul{
+        margin-left: -60px; 
+        gap: 17px;
+    }
+}

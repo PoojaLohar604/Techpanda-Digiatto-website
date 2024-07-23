@@ -1,0 +1,102 @@
+.hire-main-content{
+    padding: 3%;
+    padding-bottom: 50px;
+    background-image: url('../../../Assets/rightgradient.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover,contain;
+}
+.hire-text-content{
+    margin-top: 30px;
+}
+.hire-heading-text h5{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    color: #FCB61A;     
+}
+.hire-heading-text h1{
+    font-size: 40px;
+    font-weight: 500;   
+    color: #F6F6F6; 
+    margin-top: 30px;
+}
+.hire-para-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #D8D8D8; 
+    width: 85%;   
+    margin-top: 60px;
+}
+
+@media (max-width:992px){
+    .hire-developers-card-row-one{
+    margin-top: -110px !important;
+}
+    .hire-heading-text h5{
+        font-size: 15px;   
+    }
+    .hire-heading-text h1{
+        font-size: 30px;
+    }
+    .hire-para-text p{
+        font-size: 13px;
+        width: 95%;   
+        margin-top: 50px;
+    }
+    .hire-developers-card{
+        margin-top: 130px;
+    }
+    .hire-developers-card-row-two{
+        margin-top: 130px;
+    }    
+}
+@media (max-width:768px){
+    .hire-heading-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hire-heading-text h1{
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .hire-para-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;        
+    }
+    .hire-para-text p{
+        font-size: 15px;
+        width: 80%;   
+        margin-top: 10px;
+        text-align: center;
+    }
+    .hire-developers-card{
+        margin-top: 110px;
+    }
+    .hire-developers-card-row-two{
+        margin-top: 110px;
+    }    
+}
+@media (max-width:576px){
+    .hire-heading-text h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .hire-para-text p{
+        font-size: 13px;
+        width: 100%;   
+    }
+    .hire-card-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

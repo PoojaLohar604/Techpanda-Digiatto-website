@@ -1,0 +1,124 @@
+.partner-page-container{
+    width: 100%;
+    height: auto;
+    background-color: #000c28;  
+}
+.partner-main-content{
+    background-image: url('../../../Assets/Star.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 100%;
+    height: auto;
+}
+.partner-text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px; 
+    padding: 80px 0 80px 0;
+    background-image: url(../../../Assets/testbackground.png);
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 150px;
+}
+.partner-text-content h5{
+    color: #FCB61A;
+    word-spacing: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+}
+.partner-text-content h1{
+     color: #F6F6F6;
+    word-spacing: 5px;
+font-size: 56px;
+font-weight: 500;
+line-height:60px;
+}
+.partner-text-content p{
+    color: #D8D8D8;
+    word-spacing: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.95px;
+    width: 60%;
+    
+}
+.partner-image-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-image-box{
+    padding: 0px 80px;
+}
+.about-iamge{
+    width: 100%;
+    height: auto;
+}
+@media (max-width:992px) {
+    .partner-text-content h5{
+        font-size: 20px;
+    }
+    .partner-text-content h1{
+        font-size: 45px;
+        line-height: 40px;
+    }
+    .partner-text-content p{
+        font-size: 13px;
+        width: 70%;
+    }
+    .about-image-box{
+        padding: 0px 50px;
+    }
+    .partner-text-content{
+        padding-bottom: 80px;
+    }
+}
+@media (max-width:768px) {
+    .partner-text-content h5{
+        font-size: 15px;
+    }
+    .partner-text-content h1{
+        font-size: 35px;
+        line-height: 20px;
+    }
+    .partner-text-content p{
+        font-size: 12px;
+        width: 80%;
+        line-height: 20px;
+    }
+    .about-image-box{
+        padding: 0px 30px;
+    }
+    .partner-text-content{
+        padding-bottom: 60px;
+    }
+}
+@media (max-width:576px) {
+    .partner-text-content h5{
+        font-size: 12px;
+    }
+    .partner-text-content h1{
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .partner-text-content p{
+        font-size: 12px;
+        width: 100%;
+        line-height: 20px;
+    }
+    .about-image-box{
+        padding: 0px 30px;
+    }
+    .partner-text-content{
+        padding-bottom: 30px;
+    }
+}
+

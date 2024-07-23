@@ -1,0 +1,79 @@
+.digital-page-container{
+    width: 100%;
+    height: auto;
+    background-color: #000c28; 
+
+}
+.digital-main-content{
+    padding: 5%;
+    background-image: url('../../../Assets/Bgimg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ,contain;    
+}
+.digital-automation-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../../Assets/Star.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    margin-top: 20px;   
+}
+.digital-automation-text h5{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    color: #FCB61A;
+    
+}
+.digital-automation-text h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #F6F6F6;  
+    margin-top: 10px;  
+}
+.digital-automation-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #D8D8D8; 
+    margin-top: 10px;   
+}
+.digital-automation-card-section-two{
+    padding: 0px 50px;
+}
+@media (max-width:992px) {
+    .digital-automation-text h5{
+        font-size: 18px;       
+    }
+    .digital-automation-text h1{
+        font-size: 40px;
+    }
+    .digital-automation-text p{
+        font-size: 15px;
+    }  
+}
+@media (max-width:768px) {
+    .digital-automation-text h5{
+        font-size: 15px;       
+    }
+    .digital-automation-text h1{
+        font-size: 30px;
+    }
+}
+@media (max-width:576px) {
+    .digital-automation-text h5{
+        font-size: 13px;       
+    }
+    .digital-automation-text h1{
+        font-size: 25px;
+    }
+    .digital-automation-card-section-two{
+        padding: 0px 0px;
+    }
+}
+
+

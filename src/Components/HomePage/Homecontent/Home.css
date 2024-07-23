@@ -1,0 +1,196 @@
+.home-page-container{
+    width: 100%;
+   height: auto;
+   background-color: #000c28; 
+}
+.home-main-content{
+    background-image: url('../../../Assets/Star.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    width: 100%;
+    height: auto;
+}
+.test-test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px; 
+    padding: 80px 0 80px 0;
+    background-image: url(../../../Assets/testbackground.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.home-main-content h4{
+color: #FCB61A;
+word-spacing: 5px;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0.15em;
+
+}
+.home-main-content h1{
+    box-shadow: 0px -1px 100.7px 0px #73708E00;
+    color: #F6F6F6;
+    word-spacing: 5px;
+    width: 80%;
+font-size: 56px;
+font-weight: 500;
+line-height:60px;
+
+}
+.home-main-content h1 span{
+       color: #0207b0;
+}
+.home-main-content p{
+    color: #D8D8D8;
+    word-spacing: 5px;
+font-size: 15px;
+width: 55%;
+font-weight: 400;
+line-height: 20px;
+
+}
+.home-main-content button {
+    background: linear-gradient(90deg, #013DC4 0%, #0034A7 100%);
+    padding: 10px 30px;
+font-size: 19px;
+font-weight: 500;
+line-height: 22.42px;
+letter-spacing: 0.04em;
+
+}
+/* Responsive home page */
+@media (max-width:1200px) {
+    .home-main-content h4{
+        font-size: 21px;
+        }
+    .home-main-content h1{
+        font-size: 3.60rem;
+    }
+    .home-main-content p{
+        font-size: 0.95rem;
+        width: 60%;
+    }
+    .home-main-content button {
+        font-size: 0.82rem;
+    }
+    .home-main-content button svg{
+        width: 10px;
+        height: 10px;
+    }
+}
+@media (max-width:992px) {
+    .home-main-content h4{
+        font-size: 18px;
+        line-height: 20px;
+        }
+    .home-main-content h1{
+        font-size: 2.75rem;
+        line-height: 50px;
+    }
+    .home-main-content p{
+        font-size: 0.90rem;
+        width: 70%;
+    }
+    .home-main-content button {
+        font-size: 0.80rem;
+        padding: 8px 25px;
+    }
+    .home-main-content button svg{
+        width: 8px;
+        height: 8px;
+    }
+}
+@media (max-width:768px) {
+    .home-main-content h4{
+        font-size: 15px;
+        line-height: 10px;
+        }
+    .home-main-content h1{
+        font-size: 2rem;
+        line-height: 30px;
+    }
+    .home-main-content p{
+        font-size: 0.75rem;
+        width: 78%;
+    }
+    .home-main-content button {
+        font-size: 0.70rem;
+        padding: 6px 20px;
+    }
+    .home-main-content button svg{
+        width: 7px;
+        height: 7px;
+    }
+}
+@media (max-width:600px) {
+
+    .home-main-content{
+        padding: 0%;
+        height: auto;
+        width: 100%;
+       padding-bottom: 50px;
+    }
+    .home-main-content h4{
+        font-size: 13px;
+        }
+    .home-main-content h1{
+        font-size:1.40rem;
+    }
+    .home-main-content p{
+        font-size: 0.70rem;
+        width: 90%;
+    }
+    .home-main-content button {
+        font-size: 0.60rem;
+        padding: 5px 15px;
+    }
+    .home-main-content button svg{
+        width: 6px;
+        height: 6px;
+    }
+}
+@media (max-width:576px) {
+    .test-test{
+    padding: 80px 0 10px 0;
+    }
+    .home-main-content h4{
+        font-size: 15px;
+        line-height: 0px;
+        
+        }
+    .home-main-content h1{
+        font-size: 22px;
+        line-height: 30px;
+     }
+    .home-main-content p{
+        font-size: 0.75rem;
+        width: 90%;
+        margin-top: -10px;
+    }
+}
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+
+     padding-right: 0px !important; 
+     padding-left: 0px !important;
+} */
+
+
+  
+  .zoom-text{
+    animation: zoomInOut 2s infinite;
+  }
+  @keyframes zoomInOut {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+

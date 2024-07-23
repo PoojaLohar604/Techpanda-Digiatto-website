@@ -1,0 +1,126 @@
+.hirecard-main-content{
+    border: 1px solid #013DC4;
+    background-color: #001035; 
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 23.9px 0px #013DC469;
+}
+.hirecard-main-content:hover{
+    transform: translateY(-15px);
+}
+.hirecard-mini-box{
+    border: 1px solid #013DC4;
+    border-radius: 10px;
+    background-color: #001035;
+    position: absolute;
+    height: 150px;
+    width: 50%;
+    left: 15px;
+    top: -120px; 
+}
+.hirecard-mini-box{
+    display: flex;
+    align-items: center;        
+    justify-content: center;
+}
+.hirecard-mini-box img{
+    width: 40%;
+    height: auto;
+}
+.heading-details-of-hire-card{
+    padding: 20px;
+    display: flex;
+    gap: 2px;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.heading-details-of-hire-card h5{
+    color: #F6F6F6;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.04em;
+}
+.heading-details-of-hire-card p{
+    color: #D8D8D8;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;        
+}
+.heading-details-of-hire-card button{
+    border-style: none;
+    background-color: transparent;
+    color: #013DC4;
+    font-size: 15px;
+}
+.heading-details-of-hire-card button:hover{
+    color: #FCB61A;
+}
+.hire-card-center{
+    padding: 0px 10px;
+}
+.hirecard-main-content{
+    margin-top: 170px;
+}
+@media (max-width:992px) {
+    .hirecard-main-content{
+        margin-top: 110px;
+    }
+    .hirecard-mini-box{
+        height: 100px;
+        width: 50%;
+        top: -80px; 
+    }
+    .heading-details-of-hire-card h5{
+    font-size: 15px;
+    line-height: 20px;
+    }
+    .heading-details-of-hire-card p{
+        font-size: 13px;
+        line-height: 18px;     
+    }
+    .heading-details-of-hire-card button{
+        font-size: 13px;
+    }
+
+}
+@media (max-width:768px){
+    .hirecard-mini-box img{
+        width: 35%;
+        height: auto;
+    }
+    .hirecard-mini-box{
+        height: 80px;
+        width: 50%;
+        top: -60px; 
+    }
+    .heading-details-of-hire-card h5{
+    font-size: 15px;
+    line-height: 20px;
+    }
+    .heading-details-of-hire-card p{
+        font-size: 13px;
+        line-height: 18px;     
+    }
+    .heading-details-of-hire-card button{
+        font-size: 13px;
+    }
+
+}
+@media (max-width:576px){
+    .hirecard-main-content{
+        width: 60%;
+        height: auto;
+    }
+
+    .hirecard-mini-box img{
+        width: 30%;
+        height: auto;
+    }
+}
+

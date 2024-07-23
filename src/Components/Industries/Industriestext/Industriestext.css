@@ -1,0 +1,131 @@
+.industries-page-text-container{
+    width: 100%;
+    height: auto;
+    background-color: #000c28;   
+    background-image: url('../../../Assets/Bgimg.jpg');  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.industries-text-content{
+    padding: 3%;
+    padding-bottom: 120px;
+    
+}
+.main-text-heading-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 50px;
+    background-image: url('../../../Assets/Star.jpg');  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main-text-heading-para h5{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28.32px;
+    letter-spacing: 0.15em;
+    color: #FCB61A;
+}
+.main-text-heading-para h1{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 106.2px;
+    color: #F6F6F6;
+        
+}
+.main-text-heading-para h1 span{
+    color: #013DC4 ;    
+}
+.main-text-heading-para p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.95px;
+    color: #D8D8D8;    
+    width: 60%;    
+}
+.main-text-heading-para button{
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22.42px;
+    letter-spacing: 0.04em;
+    color: #F6F6F6; 
+    background: linear-gradient(90deg, #013DC4 0%, #0034A7 100%);
+    padding: 10px 35px;  
+    border-radius: 10px;
+    border-style: none;
+}
+@media (max-width:992px) {
+    .main-text-heading-para h5{
+        font-size: 20px;
+        line-height: 28.32px;
+    }
+    .main-text-heading-para h1{
+        font-size: 45px;
+        line-height: 80px;           
+    }
+    .main-text-heading-para p{
+        font-size: 15px;
+        line-height: 22px; 
+        width: 80%;    
+    }
+    .main-text-heading-para button{
+        font-size: 15px;
+        line-height: 22px;
+        padding: 8px 25px;  
+    }  
+    .main-text-heading-para button svg{
+        width: 12px;
+        height: 12px;
+    }  
+}
+@media (max-width:768px) {
+    .main-text-heading-para h5{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .main-text-heading-para h1{
+        font-size: 35px;
+        line-height: 60px;           
+    }
+    .main-text-heading-para p{
+        font-size: 14px;
+        line-height: 22px; 
+        width: 90%;    
+    }
+    .main-text-heading-para button{
+        font-size: 13px;
+        line-height: 22px;
+        padding: 8px 25px;  
+    }  
+    .main-text-heading-para button svg{
+        width: 10px;
+        height: 10px;
+    }  
+}
+@media (max-width:768px) {
+    .main-text-heading-para h5{
+        font-size: 15px;
+    }
+    .main-text-heading-para h1{
+        font-size: 25px;
+        line-height: 40px;           
+    }
+    .main-text-heading-para p{
+        font-size: 13px;
+        width: 100%;    
+    }
+}
+@media (max-width:576px) {
+    .industries-text-content{
+        padding-bottom: 80px;
+        
+    }
+}

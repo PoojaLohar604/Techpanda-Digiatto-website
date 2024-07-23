@@ -1,0 +1,21 @@
+.dedicate-page-container{
+    width: 100%;
+    height: auto;
+    background-color: #000c28;     
+}
+h5{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    color: #FCB61A;    
+}
+h1{
+    font-size: 56px;
+    font-weight: 500;   
+    color: #F6F6F6; 
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #D8D8D8;
+}

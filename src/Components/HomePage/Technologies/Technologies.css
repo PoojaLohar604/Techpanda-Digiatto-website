@@ -1,0 +1,92 @@
+.technologies-page-container{
+    background-color: #000c28;
+    width: 100%;
+    height: auto;
+}
+.technologies-text-content{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../../../Assets/rightGradient.jpg");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:contain;
+}
+.technologies-text-content h5{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28.32px;
+    letter-spacing: 0.15em;
+    text-align: center;
+     color: #FCB61A;
+}
+.technologies-text-content h1{
+    font-family: Profanations;
+    font-size: 50px;
+    width: 100%;
+    font-weight: 600;
+    line-height: 66.08px;
+    text-align: center;
+    color: #F6F6F6;    
+}
+.technologies-text-content p{
+    margin-top: 10px;
+    font-family: Profanations;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.54px;
+    text-align: center;
+    width: 55%;
+    color: #D8D8D8;
+}
+.technologies-cards{
+    margin-top: 30px;
+    background-image: url('../../../Assets/leftLinearGradient.jpg');
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size:contain;
+}
+@media (max-width:992px) {
+    .technologies-text-content h5{
+        font-size: 18px;
+    }
+    .technologies-text-content h1{
+        font-size: 40px;
+    }
+    .technologies-text-content p{
+        font-size: 15px;
+        width: 65%;
+     }
+}
+@media (max-width:768px) {
+    .technologies-text-content h5{
+        font-size: 15px;
+    }
+    .technologies-text-content h1{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .technologies-text-content p{
+        font-size: 12px;
+        width: 75%;
+     }
+}
+@media (max-width:576px) {
+    .technologies-text-content h5{
+        font-size: 10px;
+    }
+    .technologies-text-content h1{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    .technologies-text-content p{
+        font-size: 10px;
+        width: 100%;
+        line-height: 20px;
+     }
+}

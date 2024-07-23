@@ -1,0 +1,152 @@
+.experts-page-container{
+    width: 100%;
+    height: auto;
+    background-color: #000c28;
+} 
+.experts-main-content{
+    padding: 3%;
+ }
+ .experts-text-content{
+    line-height: 66.08px;
+ }
+.experts-text-content h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.15em; 
+    color: #FCB61A;
+}
+.experts-text-content h1{
+color: #F6F6F6;
+font-size: 56px;
+font-weight: 600;
+line-height: 60px;
+text-align: left;
+
+}
+.experts-text-content p{
+    margin-top: 20px;
+    color: #D8D8D8;
+    width: 70%;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+
+}
+.experts-paragraph{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paragraph-button{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+.button-one{
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 40px;
+    height: 40px; 
+}
+.button-one svg{
+    width: 16px;
+    height: 16px;
+}
+
+
+/* Responsive */
+@media (max-width:992px){
+    .experts-text-content h5{
+       font-size: 18px;
+    }
+    .experts-text-content h1{
+        font-size: 40px;
+    }
+    .experts-text-content p{
+        margin-top: 20px;
+        width: 80%;
+        font-size: 15px;
+    }
+    .paragraph-button{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px; 
+        margin-top: -20px; 
+    }
+    .button-one{
+        padding: 5px;
+        width: 28px;
+        height: 28px; 
+    }
+    .button-one svg{
+        width: 11px;
+        height: 11px;
+    }
+   
+}
+@media (max-width:768px){
+    .experts-text-content h5{
+       font-size: 15px;
+    }
+    .experts-text-content h1{
+        font-size: 30px;
+    }
+    .experts-text-content p{
+        margin-top: 10px;
+        width: 80%;
+        font-size: 12px;
+    }
+    .paragraph-button{
+        gap: 20px; 
+        margin-top: -30px; 
+    }
+    .button-one{
+        padding: 3px;
+        width: 22px;
+        height: 22px; 
+    }
+    .button-one svg{
+        width: 8px;
+        height: 8px;
+    }
+}
+@media (max-width:576px){
+    .experts-text-content h5{
+       font-size: 14px;
+       line-height: 0px;
+    }
+    .experts-text-content h1{
+        font-size: 23px;
+        line-height: 50px;
+    }
+    .experts-text-content p{
+        margin-top:0px;
+        width: 100%;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    .paragraph-button{
+        gap: 15px; 
+        margin-top: 10px; 
+        justify-content: start;
+        align-items: center;
+    }
+    .button-one{
+        padding: 0px;
+        width: 18px;
+        height: 18px; 
+    }
+    .button-one svg{
+        width: 7px;
+        height: 7px;
+    }
+
+}
+
+

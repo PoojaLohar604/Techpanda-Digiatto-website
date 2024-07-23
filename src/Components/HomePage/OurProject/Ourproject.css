@@ -1,0 +1,136 @@
+.ourproject-text-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.main-text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    word-spacing: 5px;
+    justify-content: start;
+    
+}
+.main-text-content h4{
+    color: #FCB61A;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    
+}
+.main-text-content h1{
+    color: #F6F6F6;
+font-size: 50px;
+font-weight: 600;
+line-height: 60px;
+text-align: left;
+
+}
+.main-text-content p{
+    color: #D8D8D8;
+    width: 75%;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+
+}
+.button-content button{
+    margin-top: -40px;
+    border-style: none;
+    background: linear-gradient(90deg, #013DC4 0%, #0034A7 100%);
+    color: #F6F6F6; 
+    padding: 5px 25px;
+    border-radius: 10px;
+font-size: 18px;
+font-weight: 500;
+letter-spacing: 0.04em;
+text-align: left;
+
+}
+.button-content{
+    display: flex;
+}
+.ourproject-cards{
+    margin-top: 30px;
+}
+.card-first-row{
+    margin-top: 50px;
+}
+/* Responsive */
+@media (max-width:992px){
+    .main-text-content h4{
+        font-size: 0.85rem;
+        line-height: 0;
+    }
+    .main-text-content h1{
+        font-size: 2.10rem;
+        line-height: 40px;
+    }
+    .main-text-content p{
+        font-size: 0.75rem;
+        width: 90%;
+        line-height: 20px;
+    }
+    .button-content button{
+        font-size: 0.65rem;
+        margin-top: -32px;
+        padding: 0px 12px;
+    }
+    .button-content button svg{
+       height: 8px;
+       width: 8px;
+    }
+}
+@media (max-width:768px){
+    .main-text-content h4{
+        font-size: 0.75rem;
+    }
+    .main-text-content h1{
+        font-size: 1.80rem;
+    }
+    .main-text-content p{
+        font-size: 0.70rem;
+        width: 90%;
+    }
+    .button-content button{
+        font-size: 0.60rem;
+        margin-top: -28px;
+        padding: 0px 8px !important;
+    }
+    .button-content button svg{
+       height: 7px;
+       width: 7px;
+    }
+}
+@media (max-width:576px){
+    .card-first-row{
+        margin-top: 0px;
+    }
+    .main-text-content h4{
+        font-size: 0.70rem;
+    }
+    .main-text-content h1{
+        font-size: 1.30rem;
+    }
+    .main-text-content p{
+        font-size: 0.55rem;
+        width: 90%;
+    }
+    .button-content button{
+        font-size: 0.55rem;
+        margin-top: 0px;
+        padding: 8px 25px !important;
+        }
+    .button-content button svg{
+       height: 6px;
+       width: 6px;
+    }
+    .ourproject-text-content{
+        display: block;
+    }
+    
+}
+

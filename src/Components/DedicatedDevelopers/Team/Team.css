@@ -1,0 +1,111 @@
+.team-main-content{
+    padding: 3%;
+    background-image: url('../../../Assets/Bgimg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover,contain;
+    padding-bottom: 80px;
+}
+.team-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../../Assets/Star.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.team-text h5{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    color: #FCB61A; 
+    margin-top: 50px;
+}
+.team-text h1 span{
+    color: #013DC4;
+}
+.team-text h1{
+    font-size: 50px;
+    font-weight: 500;   
+    color: #F6F6F6; 
+    margin-top: 20px;
+    letter-spacing: 0.15rem;
+}
+.team-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #D8D8D8;
+    margin-top: 20px;
+    width: 70%;
+}
+.team-text button{
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #F6F6F6;
+    background: linear-gradient(90deg, #013DC4 0%, #0034A7 100%);
+    border-radius: 10px;
+    margin-top: 20px;
+    border-style: none;
+    padding: 10px 25px;
+}
+@media (max-width:992px) {
+    .team-text h5{
+        font-size: 15px;
+    }
+    .team-text h1{
+        font-size: 35px;
+    }
+    .team-text p{
+        font-size: 15px;
+        width: 90%;
+    }
+    .team-text button{
+        font-size: 15px;
+        padding: 8px 20px;
+    }   
+    .team-text button svg{
+        width: 12px;
+        height: 12px;
+    }
+}
+@media (max-width:768px) {
+    .team-text h5{
+        font-size: 13px;
+    }
+    .team-text h1{
+        font-size: 27px;
+    }
+    .team-text p{
+        font-size: 13px;
+        width: 100%;
+    }
+    .team-text button{
+        font-size: 13px;
+        padding: 5px 15px;
+    }   
+    .team-text button svg{
+        width: 10px;
+        height: 10px;
+    }
+}
+@media (max-width:576px) {
+    .team-text h5{
+        font-size: 12px;
+    }
+    .team-text h1{
+        font-size: 20px;
+        letter-spacing: 0rem;
+    }
+    .team-text p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .team-text button{
+        font-size: 12px;
+        padding: 5px 20px;
+    }   
+}

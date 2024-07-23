@@ -1,0 +1,117 @@
+.portfolio-page-container{
+    width: 100%;
+   height: auto;
+   background-color: #000c28;  
+
+}
+.portfolio-main-content{
+   background-image: url('../../Assets/Bgimg.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 0% 3%;
+   padding-bottom: 80px;
+}
+.portfolio-text-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-image: url('../../Assets/Star.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+.portfolio-text-heading h5{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    color: #FCB61A; 
+    margin-top: 100px;   
+}
+.portfolio-text-heading h1{
+    font-size: 56px;
+    font-weight: 500;
+    color: #F6F6F6;    
+} 
+.portfolio-text-heading h1 span{
+    color: #013DC4;    
+}
+.portfolio-text-heading p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #D8D8D8;
+    width: 45%;
+}
+.portfolio-text-heading button{
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #F6F6F6;
+    background: linear-gradient(90deg, #013DC4 0%, #0034A7 100%);
+    padding: 10px 35px;
+    border-style: none;
+    border-radius: 10px;
+}
+@media (max-width:992px) {
+    .portfolio-text-heading h5{
+        font-size: 18px; 
+    }
+    .portfolio-text-heading h1{
+        font-size: 45px; 
+    } 
+    .portfolio-text-heading p{
+        font-size: 15px;
+        width: 65%;
+    }
+    .portfolio-text-heading button{
+        font-size: 15px;
+        padding: 10px 25px;
+    } 
+    .portfolio-text-heading button svg{
+        width: 12px;
+        height: 12px;
+    }  
+}
+@media (max-width:768px) {
+    .portfolio-text-heading h5{
+        font-size: 15px; 
+    }
+    .portfolio-text-heading h1{
+        font-size: 35px; 
+    } 
+    .portfolio-text-heading p{
+        font-size: 13px;
+        width: 85%;
+    }
+    .portfolio-text-heading button{
+        font-size: 13px;
+        padding: 8px 20px;
+    } 
+    .portfolio-text-heading button svg{
+        width: 10px;
+        height: 10px;
+    }  
+}
+@media (max-width:576px) {
+    .portfolio-text-heading h5{
+        font-size: 13px; 
+    }
+    .portfolio-text-heading h1{
+        font-size: 25px; 
+    } 
+    .portfolio-text-heading p{
+        font-size: 13px;
+        width: 95%;
+    }
+    .portfolio-main-content{
+        padding-bottom: 50px;
+     }
+     .portfolio-text-heading h5{
+        margin-top: 60px;   
+    }
+
+}

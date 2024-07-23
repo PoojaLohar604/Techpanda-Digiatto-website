@@ -1,0 +1,99 @@
+.serve-page-container{
+    width: 100%;
+    height: auto;   
+}
+.serve-main-content{
+    padding: 3%;
+    padding-bottom: 50px;   
+}
+.serve-heading-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../../Assets/Bgimg.jpg');  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+}
+.serve-heading-text h5{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28.32px;
+    letter-spacing: 0.15em;
+    color: #FCB61A;
+}
+.serve-heading-text h1{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 106.2px;
+    color: #F6F6F6;        
+}
+.serve-heading-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.95px;
+    color: #D8D8D8;    
+    width: 65%;    
+}
+.center-serve-card{
+    padding: 10px;
+}
+@media (max-width:992px){
+    .serve-heading-text{
+        margin-bottom: 30px;
+    }
+    .serve-heading-text h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .serve-heading-text h1{
+        font-size: 45px;
+        line-height: 80px;    
+    }
+    .serve-heading-text p{
+        font-size: 15px;
+        line-height: 20px;  
+        width: 75%;    
+    }
+    .center-serve-card{
+        padding: 8px;
+    }    
+}
+@media (max-width:768px){
+    .serve-heading-text h5{
+        font-size: 15px;
+    }
+    .serve-heading-text h1{
+        font-size: 35px;
+        line-height: 60px;    
+    }
+    .serve-heading-text p{
+        font-size: 13px;
+        width: 85%;    
+    }
+    .center-serve-card{
+        padding: 0px;
+        margin-top: 20px;
+    }   
+    
+} 
+
+@media (max-width:576px) {
+    .serve-card img{
+        width: 40%;
+    }
+    .serve-card h5{
+        font-size: 15px;
+        margin-top: 20px; 
+    }
+    .serve-card p{
+        font-size: 13px;
+        line-height: 18px;
+        width: 70%;
+    }   
+    .serve-heading-text p{  
+        width: 100%;    
+    }
+}

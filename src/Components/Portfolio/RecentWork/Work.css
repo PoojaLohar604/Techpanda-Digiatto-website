@@ -1,0 +1,60 @@
+.work-page-container{
+    background-image: url('../../../Assets/Bgimg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-main-content{
+    padding: 3%;
+    padding-bottom: 50px;
+}
+.image-of-work{
+    width: 85%;
+    height: auto;
+}
+.image-of-work img{
+    width: 100%;
+    height: auto;
+}
+.manage-work-card{
+    width: 100%;
+    height: auto;
+}
+.image-card-of-work-two{
+    margin-top: 80px;
+}
+.work-page-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-page-button button{
+    margin-top: 80px;
+    border: 3px solid  #013DC4 !important;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #F6F6F6;   
+    border-style: none;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px 30px;
+}
+@media (max-width:576px) {
+    .image-of-work{
+        width: 55%;
+        height: auto;
+    }
+    .center-image-of-work{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-card-of-work-two{
+        margin-top: 20px;
+    }
+    .image-of-work{
+        margin-top: 30px;
+    }
+  
+}

@@ -1,0 +1,26 @@
+.services-text h5{
+    color: #FCB61A;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.15em;    
+}
+@media (max-width:992px) {
+    .services-text h5{
+        font-size: 20px;
+        line-height: 20px;
+    }  
+}
+@media (max-width:768px) {
+    .services-text h5{
+        font-size: 18px;
+        line-height: 10px;
+    }  
+}
+@media (max-width:576px) {
+    .services-text h5{
+        font-size: 13px;
+        line-height: 0px;
+    }  
+}

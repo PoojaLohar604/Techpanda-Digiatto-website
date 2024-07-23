@@ -1,0 +1,12 @@
+.industries-main-page-container > * {
+    margin: 0;
+    padding: 0;
+  }
+  .industries-main-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #000c28;  
+  }
+  

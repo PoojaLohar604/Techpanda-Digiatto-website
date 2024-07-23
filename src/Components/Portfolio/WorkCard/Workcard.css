@@ -1,0 +1,133 @@
+.workcard-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 30px;
+    padding-right: 50px;
+}
+.workcard-content h5{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    color:  #FCB61A;
+}
+.workcard-content h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #F6F6F6; 
+ 
+}
+.workcard-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #D8D8D8;
+} 
+.workcard-content button{
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #F6F6F6;
+    background: linear-gradient(90deg, #FFC84D 0%, #FCB61A 100%);
+    border-radius: 10px;
+    padding: 5px 20px;
+    border-style: none;
+}
+@media (max-width:1151px) {
+    .workcard-content{
+        gap: 5px;
+        padding-right: 0px;
+    }
+    .workcard-content{
+       margin-top: 20px;
+    }
+    .workcard-content h5{
+        font-size: 20px;
+    }
+    .workcard-content h1{
+        font-size: 30px;     
+    }
+    .workcard-content p{
+        font-size: 17px;
+    } 
+    .workcard-content button{
+        font-size: 15px;
+        padding: 5px 20px;
+    }    
+}
+@media (max-width:992px) {
+    .workcard-content{
+        gap: 0px;
+        margin-top: 10px;
+    }
+    .workcard-content h5{
+        font-size: 18px;
+    }
+    .workcard-content h1{
+        font-size: 25px;     
+    }
+    .workcard-content p{
+        font-size: 15px;
+        line-height: 15px;
+    } 
+    .workcard-content button{
+        font-size: 13px;
+        padding: 5px 20px;
+    }   
+    .workcard-content button svg{
+        width: 10px;
+        height: 10px;
+    } 
+}
+@media (max-width:768px) {
+    .workcard-content{
+        gap: 0px;
+        margin-top: 0px;
+    }
+    .workcard-content h5{
+        font-size: 15px;
+    }
+    .workcard-content h1{
+        font-size: 18px;     
+    }
+    .workcard-content p{
+        font-size: 12px;
+        line-height: 15px;
+    } 
+    .workcard-content button{
+        font-size: 12px;
+        padding: 5px 10px;
+    }   
+    .workcard-content button svg{
+        width: 8px;
+        height: 8px;
+    } 
+}
+@media (max-width:576px) {
+    .workcard-content{
+        gap: 5px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .workcard-content h1{
+        font-size: 20px;   
+        width: 50%;  
+    }
+    .workcard-content p{
+        font-size: 12px;
+        line-height: 15px;
+        width: 60%;
+    } 
+    .workcard-content button{
+        font-size: 15px;
+        padding: 5px 20px;
+    }   
+    .workcard-content button svg{
+        width: 10px;
+        height: 10px;
+    } 
+}

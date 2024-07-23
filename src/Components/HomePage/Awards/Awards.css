@@ -1,0 +1,170 @@
+/* Your existing CSS */
+.awards-page-container{
+    width: 100%;
+    height: auto;
+    background-color: #000c28; 
+}
+.awards-main-content{
+    padding: 3%;
+    margin-top: 20px;
+}
+.awards-main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.awards-main-text h5{
+font-size: 22px !important;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.15em;
+color: #FCB61A;
+}
+.awards-main-text h1{
+    font-size: 41px !important;
+    font-weight: 600;
+    line-height: 66px;  
+    color: #F6F6F6;   
+}
+.awards-main-text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #D8D8D8;
+}
+.award-image img{
+    width: 125px !important;
+    height: auto;
+}
+.awards-testinomial-cards{
+    margin-top: 50px;
+    border: 1px solid #013DC4;
+    box-shadow: 0px 0px 23.9px 0px #013DC469;
+    background-color: #001035;
+    border-radius: 10px;
+    padding: 3%;
+    overflow: hidden;
+}
+.testinomial-text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.testinomial-text-content h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    color: #FCB61A;   
+}
+.testinomial-text-content h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 66px;
+    color: #F6F6F6;
+}
+.testinomial-text-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #D8D8D8;
+}
+ .testinomial-cards{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* Responsive */
+@media (max-width:992px){
+    .awards-main-text h5{
+    font-size: 18px !important;
+    line-height: 10px !important;
+    }
+    .awards-main-text h1{
+        font-size: 30px !important; 
+    }
+    .awards-main-text p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .award-image img{
+        width: 90px !important;
+        height: auto;
+    }
+    .testinomial-text-content h5{
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+    .testinomial-text-content h1{
+        font-size: 30px !important;
+        line-height: 60px;
+    }
+    .testinomial-text-content p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media (max-width:768px){
+    .awards-main-text h5{
+    font-size: 15px !important;
+    line-height: 0px !important;
+    }
+    .awards-main-text h1{
+        font-size: 23px !important;
+        line-height: 40px;
+    }
+    .awards-main-text p{
+        font-size: 12px;
+    }
+    .award-image img{
+        width: 60px !important;
+        height: auto;
+        margin-top: 20px;
+    }
+    .testinomial-text-content h5{
+        font-size: 14px !important;
+        line-height: 0px !important;
+    }
+    .testinomial-text-content h1{
+        font-size: 23px !important;
+        line-height: 50px;
+    }
+    .testinomial-text-content p{
+        font-size: 12px;
+        line-height: 10px;
+    }
+}
+@media (max-width:576px){
+    .awards-main-text h5{
+    font-size: 14px !important;
+    margin-top: 20px;
+    }
+    .awards-main-text h1{
+        font-size: 22px !important;
+    }
+    .awards-main-text p{
+        font-size: 13px;
+     }
+    .award-image img{
+        width: 80px !important;
+        height: auto;
+        margin-top: 20px;
+    }
+    .testinomial-text-content h5{
+        font-size: 13px !important;
+    }
+    .testinomial-text-content h1{
+        font-size: 20px !important;
+        line-height: 50px;
+    }
+    .testinomial-text-content p{
+        font-size: 13px;
+        line-height: 10px;
+    }
+}

@@ -1,0 +1,322 @@
+.footer-page-container{
+    width: 100%;
+    height: auto;
+    background-color: #000c28;      
+    border-top: 1.32px solid #FCB61A;
+    margin-top: 20px;
+}
+.footer-main-content{
+    padding: 3%;
+    margin-top: 40px;
+}
+.logo-details-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.logo-details-icons img{
+    width: 125px;
+    height: auto;
+}
+.logo-details-icons p{
+    width: 80%;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.footer-icons{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 20px;    
+}
+.icon-arrange{
+     border: 2.33px solid #013DC4; 
+     box-shadow: 0px 0px 23.9px 0px #013DC469;
+     padding: 5px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.footer-icons img{
+    width: 20px;
+    height: 20px;  
+ }
+ .icon-arrange-twitter img{
+    width: 20px;
+   height: 20px;   
+ }
+ .icon-arrange-twitter{
+    background-color: #FCB61A;
+    border: 2.33px solid #FCB61A; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 23.9px 0px #013DC469;
+    padding: 5px;
+    border-radius: 50%;
+ }
+ .services-conten-of-footer{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+ }
+ .services-conten-of-footer h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #FCB61A;
+ }
+ .services-conten-of-footer li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height:  40px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    list-style: none;
+ }
+ .newsletter h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #FCB61A;
+ }
+ .newsletter p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+ }
+ .form-control{
+    background-color: transparent !important;
+    border: 1.32px solid #013DC4 !important;
+    box-shadow: 0px 0px 23.9px 0px #013DC469 !important;
+ }
+
+.form-control::placeholder {
+    color: #FFFFFF !important;
+    opacity: 1; 
+font-size: 13px;
+font-weight: 400;
+letter-spacing: 0.04em;
+text-align: left;
+
+  }
+ .newsletter button{
+margin-top: 20px;
+font-size: 18px;
+font-weight: 500;
+letter-spacing: 0.04em;
+color: #F6F6F6;
+background: linear-gradient(90deg, #013DC4 0%, #0034A7 100%);
+padding: 5px 25px;
+border-radius: 10px;
+border-style: none;
+ }
+.copyright-content-box{
+    margin-top: 30px;
+    border-top: 2px solid #013DC4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyright-content-box h5{
+margin-top: 20px;
+font-size: 15px;
+font-weight: 500;
+line-height: 23.36px;
+letter-spacing: 0.04em;
+color: #F6F6F6;
+}
+.copyright-links h6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23.36px;
+    letter-spacing: 0.04em;
+    color: #F6F6F6;    
+}
+.copyright-links{
+    display: flex;
+    gap: 80px;
+}
+@media (max-width:992px) {
+    .logo-details-icons img{
+        width: 110px;
+        height: auto;
+    }
+    .logo-details-icons p{
+        width: 90%;
+        font-size: 13px;
+     }
+    .footer-icons img{
+        width: 13px;
+        height: 13px;  
+     }
+     .footer-icons{
+        margin-top: 0px;
+     }
+     .icon-arrange-twitter img{
+        width: 13px;
+       height: 13px;   
+     }
+     .services-conten-of-footer h5{
+        font-size: 15px;
+     }
+     .services-conten-of-footer li{
+        font-size: 12px;
+        line-height:  20px;
+     }
+     .newsletter h5{
+        font-size: 15px;
+     }
+     .newsletter p{
+        font-size: 12px;
+        line-height: 20px;
+     }
+    .form-control::placeholder {
+    font-size: 10px;  
+      }
+     .newsletter button{
+    margin-top: 10px;
+    font-size: 13px;
+    padding: 4px 20px;
+     }
+    .copyright-content-box h5{
+    font-size: 12px;
+    }
+    .copyright-links h6{
+        font-size: 12px;       
+    }
+}
+@media (max-width:768px) {
+    .logo-details-icons img{
+        width: 80px;
+        height: auto;
+    }
+    .logo-details-icons p{
+        width: 98%;
+        font-size: 12px;
+        line-height: 15px;
+     }
+    .footer-icons img{
+        width: 10px;
+        height: 10px;  
+     }
+     .footer-icons{
+       padding: 0px;
+       gap: 5px;
+     }
+     .icon-arrange-twitter img{
+        width: 10px;
+       height: 10px;   
+     }
+     .services-conten-of-footer h5{
+        font-size: 10px;
+     }
+     .services-conten-of-footer li{
+        font-size: 8px;
+        line-height:  20px;
+        margin-left: -10px;
+     }
+     .newsletter h5{
+        font-size: 10px;
+     }
+     .newsletter p{
+        font-size: 10px;
+        line-height: 15px;
+     }
+    .form-control::placeholder {
+    font-size: 8px;  
+    }
+     .newsletter button{
+      font-size: 10px;
+    padding: 4px 15px;
+     }
+    .copyright-content-box h5{
+    font-size: 10px;
+    }
+    .copyright-links h6{
+        font-size: 10px;  
+        
+    }
+    .copyright-content-box{
+        display: block;
+    }
+    .copyright-links h6{
+        margin-top: 0px;
+    }
+
+}
+@media (max-width:576px) {
+    .logo-details-icons img{
+        width: 100px;
+        height: auto;
+    }
+    .logo-details-icons p{
+        width: 100%;
+        line-height: 20px;
+     }
+    .footer-icons img{
+        width: 12px;
+        height: 12px;  
+     }
+     .footer-icons{
+       padding: 3px;
+       gap: 10px;
+     }
+     .icon-arrange-twitter img{
+        width: 12px;
+       height: 12px;   
+     }
+     .services-conten-of-footer h5{
+        margin-top: 10px;
+        font-size: 13px;
+     }
+     .services-conten-of-footer li{
+        font-size: 11px;
+        line-height:  20px;
+        margin-left: -30px;
+     }
+     .newsletter h5{
+        font-size: 13px;
+     }
+     .newsletter p{
+        font-size: 12px;
+        line-height: 15px;
+     }
+    .form-control::placeholder {
+    font-size: 10px;  
+    }
+     .newsletter button{
+      font-size: 12px;
+      padding: 5px 25px;
+     }
+    .copyright-content-box h5{
+    font-size: 12px;
+    }
+    .copyright-links h6{
+        font-size: 12px;  
+        
+    }
+    .copyright-content-box{
+        display: block;
+    }
+    .copyright-links h6{
+        margin-top: 0px;
+    }
+
+}

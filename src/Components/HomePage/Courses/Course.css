@@ -1,0 +1,151 @@
+.course-page-content{
+    background-image: url('../../../Assets/rightGradient.jpg');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+    background-color: #000c28;      
+}
+.course-content{
+    padding: 3%;
+    margin-top: 40px;   
+    background-image: url('../../../Assets/Star.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 60px;
+}
+.course-page-main-content{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.course-page-main-content h4{
+   color:  #FCB61A;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0.15em;
+
+}
+.course-page-main-content h1{
+    box-shadow: 0px -1px 100.7px 0px #73708E00;
+    color: #F6F6F6;
+    word-spacing: 5px;
+    width: 95%;  
+font-size: 53px;
+font-weight: 500;
+line-height: 60px;
+
+}
+.course-page-main-content p{
+    color: #D8D8D8;
+    word-spacing: 5px;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+
+}
+.course-page-main-cards{
+    margin-top: 70px;   
+}
+.card-row-second{
+    margin-top:80px;
+}
+@media (max-width:992px) {
+    .course-page-main-content h4{
+        font-size: 1.20rem;
+        line-height: 0px;
+     }
+    .course-page-main-content h1{
+        font-size: 2.30rem; 
+        width: 100%; 
+        line-height: 50px;
+    }
+    .course-page-main-content p{
+        font-size: 1rem; 
+        line-height: 20px;    
+    }
+}
+@media (max-width:768px) {
+    .course-page-main-content h4{
+        font-size: 1rem;
+     }
+    .course-page-main-content h1{
+        font-size: 1.78rem;
+        line-height: 30px; 
+    }
+    .course-page-main-content p{
+        font-size: 0.80rem;   
+        line-height: 20px;  
+    }
+}
+@media (max-width:600px) {
+    .course-page-main-content h4{
+        font-size: 13px;
+     }
+    .course-page-main-content h1{
+        font-size: 1.40rem; 
+        line-height: 20px;
+    }
+    .course-page-main-content p{
+        font-size: 0.70rem;     
+    }
+}
+@media (max-width:576px) {
+.card-adjust{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.course-page-main-cards{
+    margin-top: 0px !important; 
+}
+.card-row-second{
+    margin-top:0px !important;
+}
+.course-page-main-content h1{
+    font-size: 1.20rem;  
+    width: 100%;  
+}
+}
+
+ /* @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  } */
+  
+  /* .slide-in-left {
+    animation: slideInLeft 5s ease-out forwards;
+  }
+  
+  .slide-in-right {
+    animation: slideInRight 5s ease-out forwards;
+  }  */
+  
+
+

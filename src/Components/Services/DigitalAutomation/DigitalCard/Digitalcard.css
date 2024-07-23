@@ -1,0 +1,108 @@
+.digital-automation-card{
+    margin-top: 50px;
+}
+.digital-mini-box{
+    width: 60px;
+    height: 60px;
+    background-color: #001035;
+    border: 1px solid #013DC4;
+    box-shadow: 0px 0px 23.9px 0px #013DC469;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.digital-card-text{
+    padding-left: 15px;
+}
+.digital-card-text h4{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #F6F6F6;
+}
+.digital-card-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #D8D8D8;   
+    margin-top: 20px;
+    width: 100%;
+}
+.digital-card-text button{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #013DC4;    
+    border-style: none;
+    background-color: transparent;
+
+}
+@media (max-width:992px) {
+    .digital-mini-box{
+        width: 50px;
+        height: 50px;
+        margin-top: 3px;
+    }
+    .digital-card-text h4{
+        font-size: 16px;
+    }
+    .digital-card-text p{
+        font-size: 13px;
+        line-height: 20px; 
+        margin-top: 10px;
+    }
+    .digital-card-text button{
+        font-size: 13px;    
+    }
+    .digital-card-text button svg{
+        width: 10px;
+        height: 10px;
+    }
+}
+@media (max-width:768px) {
+    .digital-mini-box{
+        width: 40px;
+        height: 40px;
+        margin-top: 0px;
+    }
+    .digital-card-text h4{
+        font-size: 11px;
+    }
+    .digital-card-text p{
+        font-size: 10px;
+        line-height: 15px; 
+        margin-top: 10px;
+    }
+    .digital-card-text button{
+        font-size: 10px;    
+    }
+    .digital-card-text button svg{
+        width: 8px;
+        height: 8px;
+    }
+}
+ @media (max-width:576px) {
+    .digital-mini-box{
+        width: 40px;
+        height: 40px;
+        margin-top: 3px;
+    }
+    .digital-card-text{
+        margin-left: -20px;
+    }
+    .digital-card-text h4{
+        font-size: 16px;
+    }
+    .digital-card-text p{
+        font-size: 13px;
+        line-height: 20px; 
+        margin-top: 10px;
+        width: 90%;
+    }
+    .digital-card-text button{
+        font-size: 13px;    
+    }
+    .digital-card-text button svg{
+        width: 10px;
+        height: 10px;
+    }
+} 

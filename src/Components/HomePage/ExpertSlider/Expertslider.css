@@ -1,0 +1,74 @@
+/* src/styles.css */
+
+/* .expert-carous {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .expert-carous-inner {
+    width: 100%;
+    height: 425px;
+    position: relative;
+    max-width: 320px; 
+    margin: auto;
+    padding: 16px; 
+  }
+  
+  .bg-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: #000000;
+    opacity: 0.4;
+  }
+  
+  .expert-content {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .expert-card {
+    transition: transform 0.7s;
+  }
+  
+  .expert-card.translate-up {
+    transform: translateY(-40px);
+  }
+  
+  .expert-card.translate-down {
+    transform: translateY(35px);
+  }
+  
+  .expert-card h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+    max-width: 16rem;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .expert-carousel-button {
+    background-color: #1e40af; 
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%; 
+    padding: 0.5rem;
+    font-size: 0.875rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    cursor: pointer;
+  }
+  
+  .expert-carousel-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+   */

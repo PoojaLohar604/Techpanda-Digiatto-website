@@ -1,0 +1,370 @@
+.clients-page-container{
+    width: 100%;
+    height: auto;
+    background-color: #000c28; 
+}
+.clients-main-content{
+    padding: 3%;
+    padding-bottom: 50px;
+}
+.clients-image-text{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.clients-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.clients-text h1{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.clients-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #FFFFFF;   
+    width: 65%;
+    text-align: center;
+    margin-top: 30px;
+}
+.clients-main-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.clients-main-image img{
+    width: 80%;
+    height: auto;
+}
+.card-border{
+    box-shadow: 0px 0px 23.9px 0px #013DC469;
+    border: 1px solid #013DC4;
+    background-color: #001035;
+    border-radius: 10px;
+}
+.innovators-content{
+    margin-top: 150px;
+}
+.innovators-text-containt{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;    
+}
+.innovators-text-containt h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    color: #FCB61A;
+}
+.innovators-text-containt h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #F6F6F6;
+    margin-top: 30px;
+}
+.innovators-text-containt p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #D8D8D8;
+    margin-top: 10px;
+    width: 80%;
+}
+.innovators-one-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+.innovators-one-card h2{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 52px;
+    color: #FFFFFF;    
+}
+.innovators-one-card h5{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #FCB61A;  
+}
+.stars-icons{
+     display: flex;
+     gap: 8px;
+     color: #FCB61A;
+}
+.first-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 20px 25px;
+    margin-top: -50px; 
+}
+.first-card img{
+    width: 30px;
+    height: auto;
+}
+.first-card h2{
+    margin-top: 20px;
+    color: #F6F6F6;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 52px;    
+}
+.first-card h5{
+    margin-top: -15px;
+    color: #FCB61A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+}
+.second-card{
+    margin-top: 10px;
+}
+.text-second-card{
+    padding: 10px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+.text-second-card h2{
+    color: #F6F6F6;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 52px; 
+}
+.text-second-card h5{
+    color: #FCB61A;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.1em;   
+    margin-top: -15px; 
+}
+.second-card img{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+@media (max-width:992px) {
+    .clients-text h1{
+        font-size: 45px;
+    }
+    .clients-text p{
+        font-size: 15px;
+        line-height: 25px;
+        width: 70%;
+    }
+    .innovators-text-containt h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .innovators-text-containt h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .innovators-text-containt p{
+        font-size: 13px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .innovators-one-card{
+        padding: 20px;
+        gap: 10px;
+    }
+    .innovators-one-card h2{
+        font-size: 25px; 
+    }
+    .innovators-one-card h5{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        color: #FCB61A;  
+    }
+    .innovators-one-card img{
+        width: 80%;
+        height: auto;
+    }
+    .stars-icons svg{
+         width: 12px;
+         height: auto;
+    }
+    .first-card img{
+        width: 20px;
+        height: auto;
+    }
+    .first-card h2{
+        font-size: 25px;  
+    }
+    .first-card h5{
+        font-size: 12px;
+    }
+    .text-second-card h2{
+        font-size: 25px;
+    }
+    .text-second-card h5{
+        font-size: 10px;
+    }
+    .second-card img{
+       width: 100px;
+       height: auto;
+    }    
+      
+}
+@media (max-width:768px) {
+     .innovators-content{
+        margin-top: 80px;
+     }
+    .clients-text h1{
+        font-size: 35px;
+    }
+    .clients-text p{
+        font-size: 13px;
+        width: 80%;
+    }
+    .innovators-text-containt h5{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .innovators-text-containt h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .innovators-text-containt p{
+        font-size: 14px;
+    }
+    .Innovators-cards-col{
+        margin-top: 50px;
+    }    
+    .clutch-logo{
+        width: 50% !important;
+        height: auto !important;
+    }
+    .innovators-one-card h2{
+        font-size: 22px; 
+    }
+    .innovators-one-card h5{
+        font-size: 15px;
+    }
+    .innovators-one-card img{
+        width: 70%;
+        height: auto;
+    }
+    .stars-icons svg{
+         width: 12px;
+         height: auto;
+    }
+     .first-card img{
+        width: 18px;
+        height: auto;
+    }
+    .first-card h2{
+        font-size: 22px;  
+    }
+    .first-card h5{
+        font-size: 15px;
+    }
+    .text-second-card h2{
+        font-size: 22px;
+    }
+    .text-second-card h5{
+        font-size: 15px;
+    }
+    .second-card img{
+       width: 130px;
+       height: auto;
+    }    
+      
+}
+@media (max-width:576px) {
+   .clients-text h1{
+       font-size: 25px;
+   }
+   .clients-text p{
+       font-size: 14px;
+       width: 100%;
+       line-height: 20px;
+   }
+   .innovators-text-containt h1{
+       font-size: 25px;
+       line-height: 30px;
+       margin-top: 20;
+   }
+   .innovators-card-arrange{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .Innovators-cards-col{
+       margin-top: 30px;
+   }  
+   .innovators-one-card{
+    width: 60%;
+    margin-bottom: 10px;
+   }  
+   .clutch-logo{
+       width: 40% !important;
+       height: auto !important;
+   }
+   .innovators-one-card h2{
+       font-size: 20px; 
+   }
+   .innovators-one-card h5{
+       font-size: 15px;
+   }
+   .innovators-one-card img{
+       width: 50%;
+       height: auto;
+   }
+   .stars-icons svg{
+        width: 15px;
+        height: auto;
+   }
+   .first-card{
+    width: 60%;
+   }
+    .first-card img{
+       width: 20px;
+       height: auto;
+   }
+   .first-card h2{
+       font-size: 20px;  
+   }
+   .second-card{
+    width: 60%;
+   }
+   .text-second-card h2{
+       font-size: 20px;
+   }
+   .text-second-card h5{
+       font-size: 15px;
+   }
+   .second-card img{
+      width: 130px;
+      height: auto;
+   }    
+   .first-card{
+    margin-top: 0;
+   }
+     
+}

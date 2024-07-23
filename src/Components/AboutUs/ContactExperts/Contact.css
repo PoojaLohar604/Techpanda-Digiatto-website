@@ -1,0 +1,244 @@
+.contact-page-container{
+    width: 100%;
+    height: auto;
+    background-color: #000c28;  
+}
+.contact-main-content{
+    padding: 3%;
+    margin-top: 10px;
+}
+.contact-information h5{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.15em;   
+    color: #FCB61A; 
+    margin-top: 20px;
+}
+.contact-information h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    color: #F6F6F6;    
+}
+.contact-information p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #D8D8D8;
+    width: 90%;    
+}
+.text-mini-div{
+    font-size: 18px !important;
+    line-height: 0px !important; 
+    margin-top: 20px !important; 
+    width: 100% !important;
+}
+.contact-information h6{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    color: #FCB61A;
+}
+.contact-information h4{
+    color: #D8D8D8;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;         
+}
+.mini-div-information{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.mini-div{
+    width: 50px;
+    height: 50px;
+    background-color: #001035;
+    border: 1px solid #013DC4;
+    box-shadow: 0px 0px 23.9px 0px #013DC469;
+    border-radius: 10px;
+}
+.contact-from-inputs-content{
+    background-color:  #0034A717;
+    border-radius: 5px;
+    height: auto;
+    width: 70%;
+    margin-left: 180px;
+    padding: 40px 30px;
+    transition: tranfrom 1s ease-in-out;
+}
+.contact-from-inputs-content:hover{
+      transform: scale(1.10);
+}
+.form-title{
+    border-bottom: 1px solid #FCB61A ;
+}
+.form-title p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F6F6F6;     
+}
+.text-area{
+    background-color: transparent;
+    border-style: none;
+    border: 1.32px solid #013DC4;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+.text-area::placeholder{
+    color: #FFFFFF;
+}
+.row-form input{
+box-shadow: none !important;
+margin-top: 20px;
+}
+.submit-button{
+    border-style: none;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22.42px;
+    letter-spacing: 0.04em;
+    background: linear-gradient(90deg, #013DC4 0%, #0034A7 100%);
+    color: #F6F6F6;   
+    border-radius: 10px;
+    padding: 8px 25px;
+}
+@media (max-width:992px) {
+    .contact-main-content{
+        margin-top: 0px;
+    }
+    .contact-information h5{
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+    .contact-information h1{
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 20px;   
+    }
+    .contact-information p{
+        font-size: 15px;
+        line-height: 25px;
+        width: 100%;    
+    }
+    .text-mini-div{
+        font-size: 15px !important;
+    }
+    .contact-information h6{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contact-information h4{
+        font-size: 15px;      
+    }
+    .mini-div{
+        width: 45px;
+        height: 45px;
+    }
+    .contact-from-inputs-content{
+        width: 70%;
+        margin-left: 100px;
+    }
+    .form-title p{
+        font-size: 20px;  
+    }
+    .text-area::placeholder{
+        font-size: 12px;
+    }
+    .submit-button{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 5px 20px;
+    }   
+}
+@media (max-width:768px) {
+    .contact-information h5{
+        font-size: 15px;
+    }
+    .contact-information h1{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 20px;   
+    }
+    .contact-information p{
+        font-size: 13px;
+        line-height: 20px; 
+    }
+    .text-mini-div{
+        font-size: 12px !important;
+        margin-top: 15px !important;
+    }
+    .contact-information h6{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .contact-information h4{
+        font-size: 12px;      
+    }
+    .mini-div{
+        width: 40px;
+        height: 40px;
+    }
+    .contact-from-inputs-content{
+        width: 80%;
+        margin-left: 50px;
+    }
+    .row-form input{
+        font-size: 10px;
+    }
+    .form-title p{
+        font-size: 17px;  
+    }
+    .text-area::placeholder{
+        font-size: 10px;
+    }
+    .submit-button{
+        font-size: 12px;
+        padding: 5px 15px;
+    }   
+}
+@media (max-width:576px) {
+    .contact-information h5{
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .contact-information h1{
+        font-size: 25px;
+        line-height: 30px; 
+    }
+    .contact-information p{
+        font-size: 14px;
+    }
+    .contact-information h6{
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .contact-from-inputs-content{
+        width: 70%;
+        margin-left: 0px;
+    }
+    .text-area::placeholder{
+        font-size: 12px;
+    }
+    .contact-from-details{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+@media (max-width:450px) {
+    .contact-from-inputs-content{
+        width: 80%;
+    }
+
+}

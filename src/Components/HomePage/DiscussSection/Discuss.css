@@ -1,0 +1,312 @@
+.discuss-page-container{
+     background-color: #000c28;  
+     background-image: url('../../../Assets/Bgimg.jpg'),url('../../../Assets/Bgimg.jpg');
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover,contain;
+}
+.discuss-main-content{
+    padding: 3%;
+    background-image: url('../../../Assets/Star.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.text-content-discuss{
+    background-image: url('../../../Assets/Star.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+.text-content-discuss h1{
+    color: #F6F6F6;
+    width: 85%;
+font-size: 56px;
+font-weight: 500;
+
+}
+.text-content-discuss h1 span{
+    color: #013DC4;
+}
+.text-content-discuss button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    border-style: none;
+    background-color: transparent;
+    border: 2px solid #013DC4;
+   border-radius: 5px;
+   padding: 10px 25px;
+   color: #F6F6F6;
+font-size: 18px;
+font-weight: 500;
+letter-spacing: 0.04em;
+text-align: left;
+
+}
+.text-content-discuss button svg{
+    margin-top: 5px;
+}
+.circle-images{
+    display: flex;
+    justify-content: space-between;
+}
+.circle-images img{
+   width: 150px;
+   height: auto;
+}
+.circle-images-content{
+    display: flex;
+    align-items: center;
+    
+}
+.second-image{
+    margin-top: 130px;
+    width: 120px !important;
+   height: auto;
+}
+.image-content{
+    background-color: #001035;
+    padding: 0px 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: 0.63px solid #3A384F
+}
+.image-content h6{
+    color: #FCB61A;
+    font-size: 0.90rem;
+}
+.image-content p{
+    color: #D8D8D8;
+    font-size: 0.70rem;
+}
+.fourth-image{
+    width: 90px !important;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 20px;
+    border: 2px solid #3A384F;
+    border-radius: 50%;
+    padding: 5px;
+}
+.image-content-text{
+    background-color: #001035;
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    border: 0.63px solid #3A384F;
+    margin-top: 150px;
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: end;
+}
+.image-content-text h6{
+    color: #FCB61A;
+    font-size: 0.90rem;
+font-weight: 500;
+letter-spacing: 0.04em;
+
+}
+.image-content-text p{
+    color: #D8D8D8;
+    font-size: 0.70rem;
+font-weight: 400;
+
+}
+.third-image{
+    margin-top: -30px;
+}
+/* Responsive */
+@media (max-width:992px){
+    .third-image img{
+        width: 100px;
+        height: auto;
+    }
+    .text-content-discuss h1{
+        color: #F6F6F6;
+        width:80%;
+        font-size: 2rem;
+    }
+    .text-content-discuss button{
+       font-size: 0.80rem; 
+       padding: 8px 15px;
+     }
+    .text-content-discuss button svg{
+        margin-top: 5px;
+        height: 10px;
+        width: 10px;
+    }
+    .circle-images img{
+       width: 110px;
+       height: auto;
+    }
+    .second-image{
+        margin-top: 130px;
+        width:95px !important;
+       height: auto;
+    }
+    .image-content{
+        padding: 0px 20px;
+        padding-top: 5px;
+        height: 50px;
+    }
+    .image-content h6{
+         font-size: 0.70rem;
+    }
+    .image-content p{
+        font-size: 0.55rem;
+    }
+    .fourth-image{
+        width: 70px !important;
+        height: auto;
+        margin-top: 150px;
+        margin-left: 20px;
+        padding: 3px;
+    }
+    .image-content-text{
+        padding-left: 20px;
+        height: 45px;
+    }
+    .image-content-text h6{
+        font-size: 0.65rem;
+    }
+    .image-content-text p{
+        font-size: 0.50rem;
+    }
+   
+}
+@media (max-width:768px){
+    .third-image img{
+        width: 80px !important ;
+        height: auto;
+    }
+    .text-content-discuss h1{
+        color: #F6F6F6;
+        width:85%;
+        font-size: 1.60rem;
+    }
+    .text-content-discuss button{
+       font-size: 0.60rem; 
+       padding: 5px 10px;
+     }
+    .text-content-discuss button svg{
+        margin-top: 2px;
+        height: 8px;
+        width: 8px;
+    }
+    .circle-images img{
+       width: 85px;
+       height: auto;
+    }
+    .second-image{
+        margin-top: 130px;
+        width:70px !important;
+       height: auto;
+    }
+    .image-content{
+        padding: 3px 15px;
+        padding-top: 3px;
+        line-height: 0px;
+        height: 35px;
+    }
+    .image-content h6{
+         font-size: 0.50rem;
+    }
+    .image-content p{
+        font-size: 0.45rem;
+    }
+    .fourth-image{
+        width: 60px !important;
+        height: auto;
+        margin-top: 150px;
+        margin-left: 20px;
+        padding: 2px;
+    }
+    .image-content-text{
+        padding-left: 15px;
+        height: 40px;
+    }
+    .image-content-text h6{
+        font-size: 0.50rem;
+    }
+    .image-content-text p{
+        font-size: 0.45rem;
+    }
+   
+}
+@media (max-width:576px){
+    .third-image img{
+        width: 60px !important ;
+        height: auto;
+    }
+    .text-content-discuss h1{
+        width:90%;
+        font-size: 1.20rem;
+    }
+    .text-content-discuss button{
+       font-size: 0.60rem; 
+       padding: 3px 8px;
+     }
+    .text-content-discuss button svg{
+        margin-top: 3px;
+        height: 7px;
+        width: 7px;
+    }
+    .circle-images img{
+       width: 60px;
+       height: auto;
+    }
+    .second-image{
+        margin-top: 130px;
+        width:70px !important;
+       height: auto;
+    }
+    .image-content{
+        padding: 3px 10px;
+        padding-top: 3px;
+        line-height: 0px;
+        height: 30px;
+    }
+      .fourth-image{
+        width: 50px !important;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 20px;
+        padding: 2px;
+    }
+    .image-content-text{
+        padding-left: 15px;
+        height: 35px;
+        line-height: 0px;
+        margin-top: 50px;
+    }
+    .image-content-text h6{
+        font-size: 0.50rem;
+    }
+    .image-content-text p{
+        font-size: 0.45rem;
+    }
+    .text-content-discuss button{
+        margin-top: 20px;
+    }
+   
+}
+

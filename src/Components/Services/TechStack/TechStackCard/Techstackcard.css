@@ -1,0 +1,126 @@
+.mini-box-techstack{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #013DC4;
+    background-color: #001035;
+    border-radius: 10px;
+    box-shadow: 0px 0px 23.9px 0px #013DC469;
+    margin-top: 5px;
+}
+.minibox-title-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: -10px;
+    gap: 5px;
+}
+.minibox-title-text h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #F6F6F6;    
+}
+.minibox-title-text p{
+    width: 65%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #D8D8D8;    
+}
+.minibox-title-text button{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #013DC4;
+    border-style: none;
+    background-color: transparent;
+}
+@media (max-width:992px) {
+    .mini-box-techstack{
+        width: 45px;
+        height: 45px;
+    }
+    .minibox-title-text{
+        margin-left: -6px;
+        gap: 0px;
+    }
+    .minibox-title-text h4{
+        font-size: 15px;  
+    }
+    .minibox-title-text p{
+        width: 75%;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .minibox-title-text button{
+        font-size: 15px;
+    }  
+    .minibox-title-text button svg{
+        width: 10px;
+        height: 10px;
+    }    
+}
+@media (max-width:768px) {
+    .mini-box-techstack{
+        width: 40px;
+        height: 40px;
+    }
+    .minibox-title-text{
+        margin-left: 3px;
+    }
+    .minibox-title-text h4{
+        font-size: 13px;  
+    }
+    .minibox-title-text p{
+        width: 75%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .minibox-title-text button{
+        font-size: 12px;
+    }  
+    .minibox-title-text button svg{
+        width: 8px;
+        height: 8px;
+    }    
+}
+@media (max-width:576px) {
+    .minibox-title-text{
+        margin-left: -35px;
+    }
+    .minibox-title-text h4{
+        font-size: 15px;  
+    }
+    .minibox-title-text p{
+        width: 55%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .minibox-title-text button{
+        font-size: 12px;
+    }  
+    .minibox-title-text button svg{
+        width: 8px;
+        height: 8px;
+    }    
+}
+@media (max-width:530px) {
+    .minibox-title-text{
+        margin-left: -25px;
+    }
+    .minibox-title-text p{
+        width: 60%;
+    }
+     
+}
+@media (max-width:460px) {
+    .minibox-title-text{
+        margin-left: -10px;
+    }
+    .minibox-title-text p{
+        width: 70%;
+    }
+     
+}
